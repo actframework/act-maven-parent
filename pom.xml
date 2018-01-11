@@ -79,7 +79,7 @@
 
     <osgl-version.version>2.0.0-BETA-1</osgl-version.version>
     <osgl-ut.version>2.0.0-BETA-1</osgl-ut.version>
-    <act.version>1.6.1</act.version>
+    <act.version>1.6.2</act.version>
 
     <osgl-javadoc.css.url>https://github.com/osglworks/java-version/blob/master/src/etc/javadoc.css</osgl-javadoc.css.url>
     <sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</sonatypeOssDistMgmtSnapshotsUrl>
