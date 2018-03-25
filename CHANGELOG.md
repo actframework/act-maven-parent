@@ -1,5 +1,9 @@
 # ActFramework Maven Parent CHANGELOG
 
+## 1.8.2 - 25/Mar/2018
+* for act-1.8.2
+* maven build report error when running in a environment without git installed #1
+
 ## 1.8.1 - 11/Mar/2018
 * for act-1.8.1
 

@@ -79,7 +79,7 @@
 
     <osgl-version.version>2.0.0-BETA-1</osgl-version.version>
     <osgl-ut.version>2.0.0-BETA-1</osgl-ut.version>
-    <act.version>1.8.1</act.version>
+    <act.version>1.8.2</act.version>
 
     <osgl-javadoc.css.url>https://github.com/osglworks/java-version/blob/master/src/etc/javadoc.css</osgl-javadoc.css.url>
     <sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</sonatypeOssDistMgmtSnapshotsUrl>
@@ -126,6 +126,7 @@
   </repositories>
 
   <build>
+    <finalName>${project.artifactId}-${project.version}-b${buildNumber}</finalName>
     <resources>
       <resource>
         <directory>src/main/resources</directory>
@@ -216,22 +217,6 @@
         </executions>
       </plugin>
       <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>buildnumber-maven-plugin</artifactId>
-        <version>${buildnumber-maven-plugin.version}</version>
-        <executions>
-          <execution>
-            <phase>validate</phase>
-            <goals>
-              <goal>create</goal>
-            </goals>
-          </execution>
-        </executions>
-        <configuration>
-          <shortRevisionLength>4</shortRevisionLength>
-        </configuration>
-      </plugin>
-      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-source-plugin</artifactId>
         <version>${maven-source-plugin.version}</version>
@@ -243,6 +228,25 @@
             </goals>
           </execution>
         </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>buildnumber-maven-plugin</artifactId>
+        <version>${buildnumber-maven-plugin.version}</version>
+        <executions>
+          <execution>
+            <phase>validate</phase>
+            <goals>
+              <goal>create-timestamp</goal>
+              <goal>create</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <timestampFormat>yyMMdd_HHmm</timestampFormat>
+          <shortRevisionLength>4</shortRevisionLength>
+          <revisionOnScmFailure>${timestamp}</revisionOnScmFailure>
+        </configuration>
       </plugin>
     </plugins>
     <pluginManagement>
