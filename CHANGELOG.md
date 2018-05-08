@@ -1,5 +1,8 @@
 # ActFramework Maven Parent CHANGELOG
 
+## 1.8.8-RC1
+* for act-1.8.8-RC1
+
 ## 1.8.7 - 06/Apr/2018
 * for act-1.8.7
 
