@@ -77,9 +77,9 @@
     <mockito.version>2.9.0</mockito.version>
     <slf4j-api.version>1.7.25</slf4j-api.version>
 
-    <osgl-version.version>2.0.0-BETA-1</osgl-version.version>
+    <osgl-version.version>2.0.0-BETA-2</osgl-version.version>
     <osgl-ut.version>2.0.0-BETA-1</osgl-ut.version>
-    <act.version>1.8.8-RC11</act.version>
+    <act.version>1.8.8-RC12-SNAPSHOT</act.version>
 
     <osgl-javadoc.css.url>https://github.com/osglworks/java-version/blob/master/src/etc/javadoc.css</osgl-javadoc.css.url>
     <sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</sonatypeOssDistMgmtSnapshotsUrl>
@@ -271,12 +271,14 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>${junit.version}</version>
+      <scope>test</scope>
     </dependency>
 
     <dependency>
       <groupId>org.mockito</groupId>
       <artifactId>mockito-core</artifactId>
       <version>${mockito.version}</version>
+      <scope>test</scope>
     </dependency>
 
     <dependency>
@@ -295,6 +297,7 @@
       <groupId>org.osgl</groupId>
       <artifactId>osgl-ut</artifactId>
       <version>${osgl-ut.version}</version>
+      <scope>test</scope>
     </dependency>
 
     <dependency>
