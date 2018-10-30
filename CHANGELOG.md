@@ -1,5 +1,8 @@
 # ActFramework Maven Parent CHANGELOG
 
+## 1.8.9 30/Oct/2018
+* update osgl-ut and osgl-version to Java7 supported version
+
 ## 1.8.8 30/Oct/2018
 * for act-1.8.8
 
