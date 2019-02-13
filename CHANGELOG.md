@@ -1,6 +1,9 @@
 # ActFramework Maven Parent CHANGELOG
 
-## 1.8.18 04/Feb/2018
+## 1.8.19 13/Feb/2019
+* for act-1.8.19
+
+## 1.8.18 04/Feb/2019
 * for act-1.8.18
 
 ## 1.8.17 23/Dec/2018
