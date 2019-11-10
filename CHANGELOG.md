@@ -1,5 +1,71 @@
 # ActFramework Maven Parent CHANGELOG
 
+## 1.8.29 03/Nov/2019
+* for act-1.8.29
+
+## 1.8.28 21/Sep/2019
+* for act-1.8.28
+
+## 1.8.27 15/Sep/2019
+* for act-1.8.27
+
+## 1.8.26 21/Jul/2019
+* for act-1.8.26
+
+## 1.8.25 02/Jul/2019
+* for act-1.8.25
+
+## 1.8.24 23/Jun/2019
+* for act-1.8.24
+
+## 1.8.23 16/Jun/2019
+* for act-1.8.23
+
+## 1.8.22 20/May/2019
+* for act-1.8.22
+
+## 1.8.21 26/Apr/2019
+* for act-1.8.21
+
+## 1.8.20 20/Apr/2019
+* for act-1.8.20
+
+## 1.8.19 13/Feb/2019
+* for act-1.8.19
+
+## 1.8.18 04/Feb/2019
+* for act-1.8.18
+
+## 1.8.17 23/Dec/2018
+* for act-1.8.17
+
+## 1.8.16 09/Nov/2018
+* for act-1.8.16
+
+## 1.8.15 30/Nov/2018
+* for act-1.8.15
+
+## 1.8.14 28/Nov/2018
+* for act-1.8.14
+
+## 1,8.13 25/Nov/2018
+* for act-1.8.13
+
+## 1.8.12 20/Nov/2018
+* for act-1.8.12
+
+## 1.8.11 5/Nov/2018
+* for act-1.8.11
+
+## 1.8.10 4/Nov/2018
+* for act-1.8.9
+
+## 1.8.9 30/Oct/2018
+* update osgl-ut and osgl-version to Java7 supported version
+
+## 1.8.8 30/Oct/2018
+* for act-1.8.8
+
 ## 1.8.8-RC11 21/Jun/2018
 * for act-1.8.8-RC11
 
