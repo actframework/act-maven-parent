@@ -1,5 +1,8 @@
 # ActFramework Maven Parent CHANGELOG
 
+## 1.8.32 04/Mar/2020
+* for act-1.8.32
+
 ## 1.8.31 02/Jan/2020
 * for act-1.8.31
 * upgrade maven-enforcer-plugin version
