@@ -59,8 +59,8 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
     <scm.url>git@github.com:actframework/act-maven-parent.git</scm.url>
 
     <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
@@ -79,7 +79,7 @@
 
     <osgl-version.version>2.0.0-BETA-4-JAVA7</osgl-version.version>
     <osgl-ut.version>2.0.0-BETA-4-JAVA7</osgl-ut.version>
-    <act.version>1.8.32</act.version>
+    <act.version>1.8.33</act.version>
 
     <osgl-javadoc.css.url>https://github.com/osglworks/java-version/blob/master/src/etc/javadoc.css</osgl-javadoc.css.url>
     <sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</sonatypeOssDistMgmtSnapshotsUrl>
