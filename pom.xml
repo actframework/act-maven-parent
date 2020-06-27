@@ -21,7 +21,7 @@
   <groupId>org.actframework</groupId>
   <artifactId>parent</artifactId>
   <packaging>pom</packaging>
-  <version>1.8.33a-SNAPSHOT</version>
+  <version>1.8.33a</version>
 
   <name>parent</name>
   <description>Parent POM.xml with commonly used pre-configured features for ActFramework projects</description>
