@@ -73,7 +73,7 @@
     <license-maven-plugin.version>1.13</license-maven-plugin.version>
     <markdown-doclet.version>1.4</markdown-doclet.version>
 
-    <junit.version>4.12</junit.version>
+    <junit.version>4.13.1</junit.version>
     <mockito.version>2.9.0</mockito.version>
     <slf4j-api.version>1.7.25</slf4j-api.version>
 
