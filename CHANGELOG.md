@@ -1,5 +1,8 @@
 # ActFramework Maven Parent CHANGELOG
 
+## 1.9.2 26/Nov/2022
+* for act-1.9.2
+
 ## 1.9.1b 02/Jan/2021
 * for act-1.9.1b
 
